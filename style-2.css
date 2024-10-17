@@ -1,28 +1,38 @@
+body{
+    background-color: black;
+}
+
 .perguntas{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     gap: 50px;
+    align-items: center;
 }
 h1{
+    margin-top: 100px;
     display: flex;
     justify-content: center;
+    color: white;
+    margin-bottom: 50px;
 }
 
 .divisao-1{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    
+    gap: 50px;
 }
 
 .divisao-2{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 50px;
 }
 
 button{
     width: 300px;
     height: 100px;
+    cursor:pointer;
 }
