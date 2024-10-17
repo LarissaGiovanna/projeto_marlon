@@ -1,0 +1,28 @@
+.perguntas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.divisao-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.divisao-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button{
+    width: 300px;
+    height: 100px;
+}
