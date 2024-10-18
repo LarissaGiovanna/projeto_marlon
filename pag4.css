@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+*{
+    font-family: "Playwrite GB S", cursive;
+    margin: 0;
+}
+body {
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#header{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    gap: 25px;
+}
+#header p{
+    font-size: 2rem;
+    border-bottom: 2px solid black;
+}
+
+.escolhas {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-gap: 70px;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.escolha {
+    background-color: #4B2E83;
+    color: white;
+    border: 2px solid #FFD700;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.escolha:hover {
+    background-color: #6A4BA3;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    background-color: #4B2E83;
+    border: 5px solid #FFD700;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
