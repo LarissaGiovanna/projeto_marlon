@@ -1,12 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Home</title>
+    <title>Marlon Quiz</title>
 </head>
+
 <body>
-    <script src="script.js"></script>
+    <div class="titulo">
+        <img src="gato.png" alt="">
+        <h1>Marlon Quiz</h1>
+    </div>
+
+    <div class="opcoes">
+        <img src="mago.png" alt="">
+        <div class="alt">
+            <button onclick="window.location='pagina-2.html'">Começar</button>
+            <button onclick="popupInst()">Instruções</button>
+            <button onclick="popupCred()">Créditos</button>
+        </div>
+        <img src="pc.png" alt="">
+    </div>
+
+    <div class="instruc" id="popInst">
+        <div class="pop">
+            <h1>Instruções</h1>
+            <p>Apenas responda as perguntas e aguarde uma recompensa no final...</p>
+            <button onclick="fecharInst()">Ok</button>
+        </div>
+    </div>
+
+    <div class="cred" id="cred">
+        <div class="popCred">
+            <h1>Créditos</h1>
+            <div class="container-devs">
+                <div class="devs">
+                    <div class="git">
+                        <h3>Larissa Giovanna - Dev</h3>
+                        <a href="https://github.com/LarissaGiovanna">GitHub</a>
+                    </div>
+                    <div class="git">
+                        <h3>Júlia Nascimento - Dev</h3>
+                        <a href="https://github.com/JuliaNascimentoJn">GitHub</a>
+                    </div>
+                    <div class="git">
+                        <h3>Lilyelton dos Anjos - Dev</h3>
+                        <a href="https://github.com/anjosxX">GitHub</a>
+                    </div>
+                </div>
+                <div class="devs">
+                    <div class="git">
+                        <h3>Silas de Queiroz - Dev</h3>
+                        <a href="https://github.com/SilasDev07">GitHub</a>
+                    </div>
+                    <div class="git">
+                        <h3>Mayara Kelly - Dev</h3>
+                        <a href="https://github.com/Mayarak15">GitHub</a>
+                    </div>
+                    <div class="git">
+                        <h3>Guilherme Araújo - Designer</h3>
+                    </div>
+                </div>
+            </div>
+            <button onclick="fecharCred()">Fechar</button>
+        </div>
+    </div>
+
+    <script>
+        function popupInst() {
+            document.getElementById('popInst').style.display = 'flex'
+        }
+        function fecharInst() {
+            document.getElementById('popInst').style.display = 'none';
+        }
+        function popupCred() {
+            document.getElementById('cred').style.display = 'flex'
+        }
+        function fecharCred() {
+            document.getElementById('cred').style.display = 'none'
+
+        }
+    </script>
 </body>
+
 </html>
