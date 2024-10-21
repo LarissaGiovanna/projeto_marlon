@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Press+Start+2P&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -56,7 +57,7 @@
 }
 
 /* instruções e creditos*/
-.instruc{
+.instruc {
     background: rgba(0, 0, 0, 0.7);
     position: fixed;
     top: 0;
@@ -68,7 +69,7 @@
     justify-content: center
 }
 
-.cred{
+.cred {
     background: rgba(0, 0, 0, 0.7);
     position: fixed;
     top: 0;
@@ -80,7 +81,7 @@
     justify-content: center
 }
 
-.instruc .pop{
+.instruc .pop {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,7 +92,7 @@
     border-radius: 5%;
 }
 
-.cred .popCred{
+.cred .popCred {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -102,31 +103,33 @@
     height: 80%;
     border-radius: 5%;
 }
-.popCred h1{
+
+.popCred h1 {
     font-family: "Amatic SC", sans-serif;
     font-size: 3rem;
 }
 
-.container-devs{
+.container-devs {
     display: flex;
     gap: 20px;
-    
+
 }
-.devs{
+
+.devs {
     width: 70%;
 }
 
-.instruc .pop h1{
+.instruc .pop h1 {
     margin-bottom: 5%;
     font-family: "Amatic SC", sans-serif;
     font-size: 3rem;
 }
 
-.instruc .pop p{
+.instruc .pop p {
     font-size: 1.2rem;
 }
 
-.instruc .pop button{
+.instruc .pop button {
     background-color: #4B2E83;
     color: white;
     font-size: 1rem;
@@ -137,7 +140,7 @@
     cursor: pointer;
 }
 
-.popCred button{
+.popCred button {
     background-color: red;
     color: white;
     border: 0;
