@@ -53,7 +53,12 @@
     border: 2px solid yellow;
     padding: 10px 40px 10px 40px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
     font-family: "Amatic SC", sans-serif;
+}
+
+.alt button:hover {
+    background-color: #6A4BA3;
 }
 
 /* instruções e creditos*/
@@ -138,6 +143,11 @@
     text-align: center;
     margin-top: 5%;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.instruc .pop button:hover {
+    background-color: #6A4BA3;
 }
 
 .popCred button {
@@ -149,4 +159,10 @@
     height: 10%;
     font-size: 1rem;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.popCred button:hover {
+    cursor: pointer;
+    background-color: #d42727
 }

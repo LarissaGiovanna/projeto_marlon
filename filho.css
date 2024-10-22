@@ -13,9 +13,18 @@ body {
 }
 
 .pergunta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    gap: 25px;
+}
+
+.pergunta p{
     font-size: 2rem;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    border-bottom: 2px solid black;
 }
 
 .escolhas {
