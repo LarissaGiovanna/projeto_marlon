@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.texto h1 {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 5rem;
+}
+
+.texto p {
+    font-family: "Playwrite GB S", cursive;
+    margin-top: 5%;
+    font-size: 2.5rem;
+}
